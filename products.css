@@ -1,0 +1,26 @@
+     #home_products .ahfb-svg-iconset, #home_products .yith-add-to-wishlist-button-block{
+    display: none;
+}
+#home_products .products li{
+    position: relative;
+    
+}
+#home_products .astra-shop-summary-wrap{
+    padding: 15px;
+}
+#home_products .products li .custom-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff90;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 0.5s
+    
+} 
+#home_products .products li.desktop-align-left:hover .custom-div{
+    display: flex;
+    transition: 0.5s
+}
